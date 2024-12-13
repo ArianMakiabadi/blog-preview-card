@@ -1,3 +1,42 @@
+@font-face {
+  font-family: "myFont";
+  src: url("./assets/fonts/Figtree-VariableFont_wght.ttf") format("truetype");
+}
+
+:root {
+  /*colors*/
+  --color-yellow: #f4d04e;
+  --color-gray-950: #111111;
+  --color-gray-500: #6b6b6b;
+  --color-white: #ffffff;
+}
+
+html {
+  /*To make each rem - 10px for easier usage of rem later on*/
+  font-size: 62.5%;
+  overflow-x: hidden;
+  font-family: "myFont", sans-serif;
+}
+
+/*typography*/
+h1,
+h2,
+p {
+  line-height: 150%;
+}
+
+h1 {
+  font-size: 2.4rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+}
+
+p {
+  font-size: 1.4rem;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
