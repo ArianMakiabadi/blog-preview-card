@@ -10,6 +10,11 @@
   --color-gray-950: #111111;
   --color-gray-500: #6b6b6b;
   --color-white: #ffffff;
+
+  /*Font sizes*/
+  --font-size-large: 2.4rem;
+  --font-size-medium: 1.6rem;
+  --font-size-small: 1.4rem;
 }
 
 html {
@@ -27,15 +32,15 @@ p {
 }
 
 h1 {
-  font-size: 2.4rem;
+  font-size: var(--font-size-large);
 }
 
 h2 {
-  font-size: 1.6rem;
+  font-size: var(--font-size-medium);
 }
 
 p {
-  font-size: 1.4rem;
+  font-size: var(--font-size-small);
 }
 
 .attribution {
@@ -53,5 +58,5 @@ p {
   display: inline;
   padding: 0.4rem 1.2rem;
   border-radius: 4px;
-  font-size: 1.2rem;
+  font-size: var(--font-size-small);
 }
