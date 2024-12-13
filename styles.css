@@ -1,6 +1,7 @@
 @font-face {
   font-family: "myFont";
   src: url("./assets/fonts/Figtree-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
 }
 
 :root {
@@ -43,4 +44,14 @@ p {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+.tag {
+  font-weight: 800;
+  background-color: var(--color-yellow);
+  color: var(--color-gray-950);
+  display: inline;
+  padding: 0.4rem 1.2rem;
+  border-radius: 4px;
+  font-size: 1.2rem;
 }
