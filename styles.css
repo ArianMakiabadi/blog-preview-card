@@ -103,8 +103,9 @@ p {
   font-size: var(--font-size-small);
 }
 
-.blog__content p:last-child {
+.blog__content-text {
   color: var(--color-gray-500);
+  margin-bottom: 2rem;
 }
 
 .attribution {
@@ -113,6 +114,21 @@ p {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+.blog__author {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.blog__author img {
+  width: 32px;
+  height: auto;
+  display: inline;
+  margin-right: 1.5rem;
 }
 
 @media screen and (min-width: 1440px) {
